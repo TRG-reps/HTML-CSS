@@ -3,77 +3,63 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
-
-
 /* Rectangle 1 */
 .card {
-width: 860px;
-height: 450px;
-background: #E2E2E2;
-display: flex;
-justify-content: space-around;
-align-items: center;
+  width: 860px;
+  height: 450px;
+  background: #e2e2e2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /* Rectangle 2 */
 .content {
-width: 784px;
-height: 357px;
-background: #828282;
-border-radius: 12px;
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-}
-
-/* Rectangle 3 */
-.sidebar_l {
-width: 343px;
-height: 301px;
-background: #403F3F;
-border-radius: 12px;
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-align-items: center;
-}
-
-.sidebar_r {
-  width: 343px;
-  height: 301px;
-  background: #403F3F;
+  width: 784px;
+  height: 357px;
+  background: #828282;
   border-radius: 12px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  }
+}
 
+/* Rectangle 3 */
+.sidebar_l {
+  width: 343px;
+  height: 301px;
+  background: #403f3f;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* Rectangle 4 */
+.sidebar_r {
+  width: 343px;
+  height: 301px;
+  background: #403f3f;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
 /* Rectangle 5 */
 .item {
-width: 291px;
-height: 52px;
-background: #262626;
-border-radius: 12px;
+  width: 291px;
+  height: 52px;
+  background: #262626;
+  border-radius: 12px;
 }
-
-
 
 /* Rectangle 8 */
 .image {
-width: 142px;
-height: 247px;
-background: #262626;
-border-radius: 12px;
+  width: 142px;
+  height: 247px;
+  background: #262626;
+  border-radius: 12px;
 }
-
-
-
-
-
-
-
-
-
