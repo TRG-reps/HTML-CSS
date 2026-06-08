@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,69 +10,101 @@
       href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <title>Maket</title>
   </head>
   <body>
-    <div class="page">
-      <div class="frame">
-        <div class="head">
-          <div class="logo"><img src="images/logo-html-task.png" alt="error" /></div>
-        </div>
-        <div class="role-box"></div>
-        <img class="key" src="images/key-svgrepo-com (2) 1@3x.png" alt="no img" />
-        <div class="role-user">Role: User</div>
-        <div class="promo">Promo</div>
-        <div class="lottery">Lottery</div>
-        <div class="tournaments">Tournaments</div>
-        <div class="account-box"></div>
-        <img class="icon-acc" src="images/account-svgrepo-com 1.png" alt="icon" />
-        <div class="personal-acc">Personal Account</div>
-        <div class="language-box"></div>
-        <img class="flag" src="images/flag-ru-svgrepo-com 1.png" alt="" />
-        <div class="language">RUS</div>
-        <img class="arrow" src="images/arrow-down-svgrepo-com (1) 1.png" alt="" />
-        <div class="circle"></div>
-        <img class="logout" src="images/logout-svgrepo-com 1.png" alt="icon" />
-        <div class="mid">
-          <img class="your-brand-pic" src="images/your-brand.png" alt="no pic" />
-          <div class="mid-top">
-            <p class="some-title">Some title</p>
+    <header>
+      <div class="flex-header">
+        <div class="flex-logo">
+          <img class="logo" src="images/logo.png" alt="noImage" />
+          <div class="grey-box">
+            <img class="key" src="images/key.png" alt="noImage" />
+            <p class="role-user">Role: User</p>
           </div>
-          <div class="mid-middle">
+        </div>
+        <div class="flex-nav">
+          <p class="nav-but">Promo</p>
+          <p class="nav-but">Lottery</p>
+          <p class="nav-but">Tournaments</p>
+        </div>
+        <div class="flex-acc">
+          <div class="grey-box">
+            <img class="acc-icon" src="images/account-icon.png" alt="noImage" />
+            <p class="pers-acc">Personal account</p>
+          </div>
+          <div class="grey-box">
+            <div class="left-part">
+              <img class="flag" src="images/flag.png" alt="noImage" />
+              <p class="rus-lang">RUS</p>
+            </div>
+            <div class="right-part">
+              <img
+                class="arrow-down"
+                src="images/arrow-down.png"
+                alt="noImage"
+              />
+            </div>
+          </div>
+          <div class="grey-circle">
+            <img
+              class="logout-icon"
+              src="images/logout-icon.png"
+              alt="noImage"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="center">
+        <div class="left-flex-cont">
+          <img class="big-card" src="/images/wallpaper.png" alt="" />
+        </div>
+        <div class="right-flex-cont">
+          <div class="title">
+            <p class="some-title">Some Title</p>
+          </div>
+          <div class="article">
             <p class="text">
               Body language is a powerful tool, especially when there are no
-              words. But here's the thing: the body is not wi-fi. It shouldn't
-              connect without a password. <br />
-              <br />
+              words. <br />
+              But here's the thing: the body is not wi-fi. It shouldn't connect
+              without a <br />
+              password.
+            </p>
+
+            <p class="text">
               Psychology: In situations with limited verbal communication,
               people amplify non-verbal cues. Mistakes in interpretation are the
               norm, not cause for blame. Helpful: Calmness and humor can help
               you get out of awkwardness and save face (and boundaries).
             </p>
           </div>
-          <div class="box-items">
-            <div class="box"><img src="images/card.png" alt="no img" /></div> 
-            <div class="box"><img src="images/card.png" alt="no img" /></div>
-            <div class="box"><img src="images/card.png" alt="no img" /></div>
+          <div class="photos-cont">
+            <div class="photo"><img src="images/card.png" alt="noImage" /></div>
+            <div class="photo"><img src="images/card.png" alt="noImg" /></div>
+            <div class="photo"><img src="images/card.png" alt="noImg" /></div>
           </div>
         </div>
-        <div class="bot">
-          <p class="game_cards_text">Games Cards</p>
-          <div class="arrows">
-            <div class="arrow-box">
-              <div class="arrow-left"></div>
-            </div>
-            <div class="arrow-box">
-              <div class="arrow-right"></div>
-            </div>
+      </section>
+      <section class="bottom">
+        <h2>Games Cards</h2>
+        <div class="flex-arrows">
+          <div class="arrows-box">
+            <div class="arrow-left"></div>
           </div>
-          <div class="flex-cont-down">
-            <div class="desk"></div>
-            <div class="desk"></div>
-            <div class="desk"></div>
-            <div class="desk"></div>
+          <div class="arrows-box">
+            <div class="arrow-right"></div>
           </div>
         </div>
-      </div>
-    </div>
+        <div class="flex-cards">
+          <div class="cards"></div>
+          <div class="cards"></div>
+          <div class="cards"></div>
+          <div class="cards"></div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
